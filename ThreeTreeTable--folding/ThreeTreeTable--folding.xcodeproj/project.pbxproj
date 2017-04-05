@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8F83F9081E94E3B0008FF46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9071E94E3B0008FF46C /* main.m */; };
-		8F83F90B1E94E3B0008FF46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F90A1E94E3B0008FF46C /* AppDelegate.m */; };
-		8F83F90E1E94E3B0008FF46C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F90D1E94E3B0008FF46C /* ViewController.m */; };
-		8F83F9111E94E3B0008FF46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F90F1E94E3B0008FF46C /* Main.storyboard */; };
 		8F83F9131E94E3B0008FF46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F9121E94E3B0008FF46C /* Assets.xcassets */; };
 		8F83F9161E94E3B0008FF46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F9141E94E3B0008FF46C /* LaunchScreen.storyboard */; };
 		8F83F9211E94E3B0008FF46C /* ThreeTreeTable__foldingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9201E94E3B0008FF46C /* ThreeTreeTable__foldingTests.m */; };
 		8F83F92C1E94E3B0008FF46C /* ThreeTreeTable__foldingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F92B1E94E3B0008FF46C /* ThreeTreeTable__foldingUITests.m */; };
+		8F83F94A1E94E4E4008FF46C /* ThreeTreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F93B1E94E4E4008FF46C /* ThreeTreeModel.m */; };
+		8F83F94B1E94E4E4008FF46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F93E1E94E4E4008FF46C /* AppDelegate.m */; };
+		8F83F94C1E94E4E4008FF46C /* ThreeTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9411E94E4E4008FF46C /* ThreeTreeViewController.m */; };
+		8F83F94D1E94E4E4008FF46C /* ChapterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9441E94E4E4008FF46C /* ChapterHeader.m */; };
+		8F83F94E1E94E4E4008FF46C /* ChapterHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F9451E94E4E4008FF46C /* ChapterHeader.xib */; };
+		8F83F94F1E94E4E4008FF46C /* ChapterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9471E94E4E4008FF46C /* ChapterTableViewCell.m */; };
+		8F83F9501E94E4E4008FF46C /* ThreeTreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83F9491E94E4E4008FF46C /* ThreeTreeTableViewCell.m */; };
+		8F83F9521E94E4EF008FF46C /* json in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F9511E94E4EF008FF46C /* json */; };
+		8F83F9541E94E576008FF46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F83F9531E94E576008FF46C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +43,6 @@
 /* Begin PBXFileReference section */
 		8F83F9031E94E3B0008FF46C /* ThreeTreeTable--folding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThreeTreeTable--folding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F83F9071E94E3B0008FF46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F83F9091E94E3B0008FF46C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8F83F90A1E94E3B0008FF46C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F83F90C1E94E3B0008FF46C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F83F90D1E94E3B0008FF46C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F83F9101E94E3B0008FF46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F83F9121E94E3B0008FF46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F83F9151E94E3B0008FF46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F83F9171E94E3B0008FF46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,22 @@
 		8F83F9271E94E3B0008FF46C /* ThreeTreeTable--foldingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreeTreeTable--foldingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F83F92B1E94E3B0008FF46C /* ThreeTreeTable__foldingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTreeTable__foldingUITests.m; sourceTree = "<group>"; };
 		8F83F92D1E94E3B0008FF46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F83F93A1E94E4E4008FF46C /* ThreeTreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeTreeModel.h; sourceTree = "<group>"; };
+		8F83F93B1E94E4E4008FF46C /* ThreeTreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeTreeModel.m; sourceTree = "<group>"; };
+		8F83F93D1E94E4E4008FF46C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F83F93E1E94E4E4008FF46C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F83F93F1E94E4E4008FF46C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		8F83F9401E94E4E4008FF46C /* ThreeTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeTreeViewController.h; sourceTree = "<group>"; };
+		8F83F9411E94E4E4008FF46C /* ThreeTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeTreeViewController.m; sourceTree = "<group>"; };
+		8F83F9431E94E4E4008FF46C /* ChapterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterHeader.h; sourceTree = "<group>"; };
+		8F83F9441E94E4E4008FF46C /* ChapterHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterHeader.m; sourceTree = "<group>"; };
+		8F83F9451E94E4E4008FF46C /* ChapterHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterHeader.xib; sourceTree = "<group>"; };
+		8F83F9461E94E4E4008FF46C /* ChapterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterTableViewCell.h; sourceTree = "<group>"; };
+		8F83F9471E94E4E4008FF46C /* ChapterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterTableViewCell.m; sourceTree = "<group>"; };
+		8F83F9481E94E4E4008FF46C /* ThreeTreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeTreeTableViewCell.h; sourceTree = "<group>"; };
+		8F83F9491E94E4E4008FF46C /* ThreeTreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeTreeTableViewCell.m; sourceTree = "<group>"; };
+		8F83F9511E94E4EF008FF46C /* json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json; sourceTree = "<group>"; };
+		8F83F9531E94E576008FF46C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +118,11 @@
 		8F83F9051E94E3B0008FF46C /* ThreeTreeTable--folding */ = {
 			isa = PBXGroup;
 			children = (
-				8F83F9091E94E3B0008FF46C /* AppDelegate.h */,
-				8F83F90A1E94E3B0008FF46C /* AppDelegate.m */,
-				8F83F90C1E94E3B0008FF46C /* ViewController.h */,
-				8F83F90D1E94E3B0008FF46C /* ViewController.m */,
-				8F83F90F1E94E3B0008FF46C /* Main.storyboard */,
+				8F83F9391E94E4E4008FF46C /* Model的副本 */,
+				8F83F93C1E94E4E4008FF46C /* Others的副本 */,
+				8F83F9421E94E4E4008FF46C /* Views的副本 */,
+				8F83F9511E94E4EF008FF46C /* json */,
+				8F83F9531E94E576008FF46C /* Main.storyboard */,
 				8F83F9121E94E3B0008FF46C /* Assets.xcassets */,
 				8F83F9141E94E3B0008FF46C /* LaunchScreen.storyboard */,
 				8F83F9171E94E3B0008FF46C /* Info.plist */,
@@ -138,6 +155,41 @@
 				8F83F92D1E94E3B0008FF46C /* Info.plist */,
 			);
 			path = "ThreeTreeTable--foldingUITests";
+			sourceTree = "<group>";
+		};
+		8F83F9391E94E4E4008FF46C /* Model的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				8F83F93A1E94E4E4008FF46C /* ThreeTreeModel.h */,
+				8F83F93B1E94E4E4008FF46C /* ThreeTreeModel.m */,
+			);
+			path = "Model的副本";
+			sourceTree = "<group>";
+		};
+		8F83F93C1E94E4E4008FF46C /* Others的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				8F83F93D1E94E4E4008FF46C /* AppDelegate.h */,
+				8F83F93E1E94E4E4008FF46C /* AppDelegate.m */,
+				8F83F93F1E94E4E4008FF46C /* Common.h */,
+				8F83F9401E94E4E4008FF46C /* ThreeTreeViewController.h */,
+				8F83F9411E94E4E4008FF46C /* ThreeTreeViewController.m */,
+			);
+			path = "Others的副本";
+			sourceTree = "<group>";
+		};
+		8F83F9421E94E4E4008FF46C /* Views的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				8F83F9431E94E4E4008FF46C /* ChapterHeader.h */,
+				8F83F9441E94E4E4008FF46C /* ChapterHeader.m */,
+				8F83F9451E94E4E4008FF46C /* ChapterHeader.xib */,
+				8F83F9461E94E4E4008FF46C /* ChapterTableViewCell.h */,
+				8F83F9471E94E4E4008FF46C /* ChapterTableViewCell.m */,
+				8F83F9481E94E4E4008FF46C /* ThreeTreeTableViewCell.h */,
+				8F83F9491E94E4E4008FF46C /* ThreeTreeTableViewCell.m */,
+			);
+			path = "Views的副本";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F83F9161E94E3B0008FF46C /* LaunchScreen.storyboard in Resources */,
+				8F83F9541E94E576008FF46C /* Main.storyboard in Resources */,
 				8F83F9131E94E3B0008FF46C /* Assets.xcassets in Resources */,
-				8F83F9111E94E3B0008FF46C /* Main.storyboard in Resources */,
+				8F83F9521E94E4EF008FF46C /* json in Resources */,
+				8F83F94E1E94E4E4008FF46C /* ChapterHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F83F90E1E94E3B0008FF46C /* ViewController.m in Sources */,
-				8F83F90B1E94E3B0008FF46C /* AppDelegate.m in Sources */,
+				8F83F94D1E94E4E4008FF46C /* ChapterHeader.m in Sources */,
+				8F83F94F1E94E4E4008FF46C /* ChapterTableViewCell.m in Sources */,
+				8F83F94A1E94E4E4008FF46C /* ThreeTreeModel.m in Sources */,
 				8F83F9081E94E3B0008FF46C /* main.m in Sources */,
+				8F83F94B1E94E4E4008FF46C /* AppDelegate.m in Sources */,
+				8F83F94C1E94E4E4008FF46C /* ThreeTreeViewController.m in Sources */,
+				8F83F9501E94E4E4008FF46C /* ThreeTreeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F83F90F1E94E3B0008FF46C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F83F9101E94E3B0008FF46C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F83F9141E94E3B0008FF46C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
